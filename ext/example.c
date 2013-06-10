@@ -1,4 +1,10 @@
-string example(void)
+# include <stdio.h>
+# include <string.h>
+
+long
+//char*
+example(void)
 {
-  return 'hullo!';
+  return 0xdeadbeef;
+  //return "hullo!";
 }
