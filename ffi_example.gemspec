@@ -4,6 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ffi_example/version'
 
 Gem::Specification.new do |spec|
+  spec.extensions << 'ext/Rakefile'
+
   spec.name          = "ffi_example"
   spec.version       = FfiExample::VERSION
   spec.authors       = ["David Conner"]
